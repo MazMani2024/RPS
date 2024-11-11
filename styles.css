@@ -1,0 +1,111 @@
+body{
+   background-image: url('BackGround.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h1{
+   font-size: 4.5rem;
+   color: #1a8d8d;
+   text-align: center;
+   font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+   font-size: 4rem;
+   color: hsl(192, 44%, 50%);
+   font-family: "Alumni Sans Collegiate One", serif;
+  font-weight: 500;
+  font-style: italic;
+
+}
+
+h1:hover{
+   background-color: #800f0f;
+
+}
+.player{
+   padding: 3% 5px 20%;
+   position: relative;
+   right: 12%;
+}
+
+.container{
+   padding: 1% 0 0 22%;
+   text-align: center;
+   margin: 5px;
+}
+.row{
+   display: flex;
+   text-align: center;
+}
+
+.image1{
+   width: 30rem;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: #800f0f;
+   
+   
+   
+}
+
+.image2{
+   width: 30rem;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: blue;
+   
+
+}
+
+
+
+
+
+@media(max-width:1030px){
+   body {
+      font-size: 0.2rem;
+      background-image: url('BackGround.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   p{
+      text-align: center;
+      font-size: 4rem;
+   }
+   h1{
+      font-size: 6rem;
+   }
+   .image1{
+      position: static;
+      transform: rotate(0);
+      width: 13rem;
+      
+   }
+   .image2{
+      position: static;
+      transform: rotate(0);
+      width: 13rem;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
